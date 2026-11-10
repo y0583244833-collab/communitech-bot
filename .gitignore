@@ -1,0 +1,29 @@
+# מפתחות וסודות
+.env
+
+# סביבה וירטואלית
+venv/
+
+# מסד הנתונים הווקטורי (נבנה מחדש עם ingest.py)
+chroma_db/
+
+# קבצים זמניים של פייתון
+__pycache__/
+*.pyc
+
+# קובצי בדיקה
+test_key.py
+test_models.py
+
+# קבצים של אתר CommuniTech (לא חלק מהבוט)
+css/
+html/
+img/
+js/
+index.html
+rag_data/
+
+# קבצים של מערכת ההפעלה והעורך
+.vscode/
+Thumbs.db
+.DS_Store
